@@ -15,47 +15,73 @@
     	<![endif]-->
 	</head>
 	<body>
+		<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+		<script src="js/bootstrap.js"></script>
+
+		<!-- Navbar -->
+		<header class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+
+				 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand text-muted" href="#"><span id="logo">Travelling</span>.com</a>
+
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!-- End navbar -->
+		<div class="header">
+			<div class="image">				
+				<img class="img-responsive hidden-xs" src="img/main.jpeg" alt="A photo of Bangkok.">
+			</div>
+
+			<div class="container">
+				<div class="jumbotron">
+						<h1>Welcome to Thailand!</h1>
+						<p class="lead">Thailand, officially the Kingdom of Thailand, formerly known as Siam, is a country at the centre of the Indochinese peninsula in Southeast Asia.</p>
+				</div>
+			</div>
+		</div>
+
 		<div class="container">
-			<header>
-			<div>
-			<h3>Travelling</h3>
-			</div>
-			<div>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div>
-			</header>
-		</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<img class="img-responsive" src="img/bangkok.jpeg" alt="A photo of Bangkok.">
+					<h2>Bangkok</h2>
+					<p>Bangkok è la capitale e più grande città della Thailandia, situata lungo il fiume Chao Phraya, nei pressi del golfo della Thailandia.</p>
+					<a class="btn btn-warning btn-md" href="#">Read more</a>
+				</div>
 
-		<div>
-			<div>
-				<h1>Welcome to Thailand!</h1>
-				<p>Thailand, officially the Kingdom of Thailand, formerly known as Siam, is a country at the centre of the Indochinese peninsula in Southeast Asia.</p>
-			</div>
+				<div class="col-sm-4">
+					<img class="img-responsive hidden-xs" src="img/chiang-mai.jpeg" alt="A photo of Chiang Mai.">
+					<h2>Chiang Mai</h2>
+					<p>Chiang Mai è una città maggiore della Thailandia. Il territorio comunale occupa la totalità dei sottodistretti Si Phum, Phra Sing, Chang Khlan, Wat Ket e Pa Tan.</p>
+					<a class="btn btn-warning btn-md" href="#">Read more</a>
+				</div>
 
-			<div>
-				<h2>Bangkok</h2>
-				<p>Bangkok è la capitale e più grande città della Thailandia, situata lungo il fiume Chao Phraya, nei pressi del golfo della Thailandia.</p>
+				<div class="col-sm-4">
+					<img class="img-responsive hidden-xs" src="img/koh-samui.jpeg" align="A photo of Koh Samui.">
+					<h2>Koh Samui</h2>
+					<p>Ko Samui è un'isola della Thailandia situata nell'estremità sud-occidentale del Golfo di Thailandia, 35 km a nord-est della città costiera di Surat Thani.</p>
+					<a class="btn btn-warning btn-md" href="#">Read more</a>					
+				</div>
 			</div>
 
 			<div>
-				<h2>Chiang Mai</h2>
-				<p>Chiang Mai è una città maggiore della Thailandia. Il territorio comunale occupa la totalità dei sottodistretti Si Phum, Phra Sing, Haiya, Chang Moi, Chang Khlan, Wat Ket e Pa Tan.</p>
+				<footer>
+					<p>&copy; 2016 Vacation website - By Luigi Neto</p>
+				</footer>
 			</div>
-
-			<div>
-				<h2>Koh Samui</h2>
-				<p>Ko Samui è un'isola della Thailandia situata nell'estremità sud-occidentale del Golfo di Thailandia, 35 km a nord-est della città costiera di Surat Thani.</p>
-			</div>
-		</div>
-
-		<div>
-			<footer>
-				<p>&copy; 2016 Vacation website - By Luigi Neto</p>
-			</footer>
 		</div>
 	</body>
 </html>
